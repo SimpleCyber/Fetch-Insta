@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load API key from environment variable
-RAPIDAPI_KEY = "d65eb81e02mshd8f1eca29ba52b7p17caeajsn661881ae5f2c"
+RAPIDAPI_KEY = "2e441ee7e4mshe67c27c1cc16b20p1a6c08jsn304da69448df"
 if not RAPIDAPI_KEY:
     raise EnvironmentError("RAPIDAPI_KEY is not set. Please set it in your environment variables.")
 
