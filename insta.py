@@ -4,7 +4,7 @@ import os
 import requests
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/instagram": {"origins": "*"}})
 
 # Load API key from environment variable
 RAPIDAPI_KEY = "2e441ee7e4mshe67c27c1cc16b20p1a6c08jsn304da69448df"
